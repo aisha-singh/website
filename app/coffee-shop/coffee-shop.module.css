@@ -1,0 +1,13 @@
+.response {
+  padding: 10px;
+}
+
+.coffee {
+  width: 200px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.coffees {
+  gap: 20px;
+}

@@ -1,0 +1,34 @@
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-inline: auto;
+}
+
+.topRow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.placeholder {
+    flex: 1;
+    visibility: hidden;
+}
+
+.icons {
+    display: flex;
+    gap: 12px;
+    flex: 1;
+    justify-content: flex-end;
+}
