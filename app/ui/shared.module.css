@@ -4,9 +4,12 @@
     align-items: center;
     background-color: #f4f4fe;
     width: 600px;
-    height: 600px;
+    min-height: 0;
     margin: 0 auto;
     border-radius: 3px;
     padding: 45px;
 }
 
+[data-theme="dark"] .section {
+    background-color: rgb(50, 15, 107);
+}

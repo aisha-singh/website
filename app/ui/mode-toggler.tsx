@@ -1,12 +1,13 @@
 'use client';
 import Image from "next/image";
 import styles from "./mode-toggler.module.css";
-import { useState } from "react";
+import { useTheme } from "../context/theme-context";
+
 
 export default function ModeToggler() {
-  const [isDark, setIsDark] = useState(false);
-  const imageSrc = isDark ? "/images/dark_mode.png" : "/images/light_mode.png";
-  const imageAlt = isDark ? "dark mode icon" : "light mode icon";
+  const { theme, changeTheme } = useTheme();
+  const imageSrc = theme === 'dark' ? "/images/dark_mode.png" : "/images/light_mode.png";
+  const imageAlt = theme === 'dark' ? "dark mode icon" : "light mode icon";
   return (
     <Image
       className={styles.image}
@@ -14,7 +15,7 @@ export default function ModeToggler() {
       alt={imageAlt}
       width={20}
       height={20}
-      onClick={() => { setIsDark(!isDark); } }
+      onClick={changeTheme}
     />
   );
 }

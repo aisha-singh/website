@@ -9,7 +9,6 @@ export default function Home() {
           <p className = {styles.intro}>I am a software engineer with 4+ years of experience building web applications (Microsoft, Washington Post). 
             I’m passionate about coding for impact, and finding the intersection between journalism, policy, and computational solutions. 
             I’m known for developing creative solutions in both front-end and back-end scenarios.</p>
-          <p className = {styles.intro}>Click through the site to learn more :-)</p>
       </div>
     </div>
   );
