@@ -13,11 +13,9 @@ Contact me via LinkedIn [`here`](https://www.linkedin.com/in/aisha-singh99/).
 ## TODOs:
 
 - update wording
-- fix footer positioning
 - add project demos
 - deploy the site!
 - improve responsive design
-- enable dark mode by wrapping the page in a theme provider
 - add high-contrast mode for accessibility
 - add dynamic visual elements to the page
 
