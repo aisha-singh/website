@@ -2,7 +2,7 @@
 
 Welcome! This is a simple static (for now) website that includes my professional experience, resume/projects, and a little bit about me.
 
-Link to site: [link to site]
+Link to site: [`aishas.vercel.app`](https://aishas.vercel.app)
 
 This project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), and follows the folder/file structure they recommend. NextJS was used primarily due to other projects I'm working on that benefit from server-side rendering, but also because the included router is helpful.
 
